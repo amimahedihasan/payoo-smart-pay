@@ -26,6 +26,22 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
         alert("Cashout Successfully")
         // console.log('New balace:' ,newBalance)
         setBalance(newBalance)
+        
+   // 1. history  container ka neya asbo
+   const history = document.getElementById('history-container')
+   //2 new div create korbo
+   const newHistory = document.createElement('div')
+   // new div a innerHtml add krobo
+   newHistory.innerHTML =
+   `<div class="history-card p-5 bg-base-100 ">
+    Cashout-${cashoutAmount} Taka Succesfulley form 
+      ${cashoutNumber} , 
+      at ${new Date()}
+                
+   </div>
+   `
+   //4 history container a newDiv append korbo
+   history.append(newHistory)
       }
       else{
         alert('Invalid Pin')
