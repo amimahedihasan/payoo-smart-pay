@@ -12,7 +12,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
     // console.log(pinNumber)
 
     // 3 match the pin
-    if(contactNumber == '12345678900' && pin == '1234'){
+    if(contactNumber == '01313928111' && pin == '1234'){
         // 3-1 ::: true alert >homepage
         alert('Login Sussefully')
         // window.location.replace('/home.html')

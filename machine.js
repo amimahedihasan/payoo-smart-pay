@@ -36,8 +36,11 @@ function showOnly(id){
     addMoney.classList.add('hidden')
     cashout.classList.add('hidden')
     history.classList.add('hidden')
-
-    //show id wala element
+    document.getElementById('transfer-money').classList.add('hidden');
+    document.getElementById('get-bonus').classList.add('hidden');
+    document.getElementById('pay-bill').classList.add('hidden');
+    
+    //show id thai is called
     const seleced = document.getElementById(id)
     seleced.classList.remove('hidden')
 

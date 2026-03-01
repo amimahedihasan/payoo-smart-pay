@@ -51,7 +51,7 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
     
 })
 
-
+// bekolo way of long 
 // document.getElementById('cashout-btn').addEventListener('click',function(){
 //     // 1 get the agent number & validated
 
@@ -100,7 +100,7 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
 //       }
       
 
-// projects Overview
+// CashOut Overview 
 //     // 1 get the agent number
 //     // 1-1 take value from input field
 //     // 1-2 validate agent number length (must be 11 digit)
