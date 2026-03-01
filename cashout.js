@@ -27,11 +27,11 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
         // console.log('New balace:' ,newBalance)
         setBalance(newBalance)
         
-   // 1. history  container ka neya asbo
+   // 1. get the history container
    const history = document.getElementById('history-container')
-   //2 new div create korbo
+   //2. create new div
    const newHistory = document.createElement('div')
-   // new div a innerHtml add krobo
+   // new div to added innerHtml 
    newHistory.innerHTML =
    `<div class="history-card p-5 bg-base-100 ">
     Cashout-${cashoutAmount} Taka Succesfulley form 
@@ -40,7 +40,7 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
                 
    </div>
    `
-   //4 history container a newDiv append korbo
+   //4 append the history container in newDiv 
    history.append(newHistory)
       }
       else{
@@ -51,7 +51,7 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
     
 })
 
-// bekolo way of long 
+// Long - line Code
 // document.getElementById('cashout-btn').addEventListener('click',function(){
 //     // 1 get the agent number & validated
 
@@ -100,8 +100,8 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
 //       }
       
 
-// CashOut Overview 
-//     // 1 get the agent number
+// All Summery to complete cash-out section
+//      // 1 get the agent number
 //     // 1-1 take value from input field
 //     // 1-2 validate agent number length (must be 11 digit)
 //     // 1-3 if invalid show error and stop function (return)
