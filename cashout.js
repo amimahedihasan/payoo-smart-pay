@@ -51,7 +51,7 @@ document.getElementById('cashout-btn').addEventListener('click',function(){
     
 })
 
-// Long - line Code
+// Long - line Code 
 // document.getElementById('cashout-btn').addEventListener('click',function(){
 //     // 1 get the agent number & validated
 

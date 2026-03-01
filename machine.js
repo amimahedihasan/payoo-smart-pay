@@ -43,6 +43,8 @@ function showOnly(id){
     //show id thai is called
     const seleced = document.getElementById(id)
     seleced.classList.remove('hidden')
+    const allInputs = document.querySelectorAll('input');
+allInputs.forEach(input => input.value = '');
 
 }
 
